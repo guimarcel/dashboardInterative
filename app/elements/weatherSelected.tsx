@@ -27,7 +27,7 @@ export default function weatherSelected(props: weatherSelectedProps) {
           className="w-16 h-16"
         />
 
-        <div className="flex content-between">
+        <div className="flex w-[100%] justify-between">
           <div className="">
             <span className="mr-2">{Math.round(temp)}°</span>
             <span>
