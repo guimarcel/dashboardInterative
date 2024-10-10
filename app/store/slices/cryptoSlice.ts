@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { getCrypto, getCoins, getCoin, getCoinHistory } from '../../api/crypto/route' 
+import { getCrypto, getCoins, getCoin, getCoinHistory } from '../../api/crypto' 
 import { Coins, Coin, CoinHistory } from "../types/cryptoTypes";
 
 

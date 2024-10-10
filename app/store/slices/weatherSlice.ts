@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import {getWeather, getForecast } from '../../api/weather/route' 
+import {getWeather, getForecast } from '../../api/weather' 
 import { WeatherResponse, ForecastResponse } from "../types/weatherTypes";
 
 interface WeatherState {

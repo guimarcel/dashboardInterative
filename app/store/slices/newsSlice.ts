@@ -1,6 +1,6 @@
 /* store/slices/newsSlice.ts */
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { getNews } from '../../api/news/route' 
+import { getNews } from '../../api/news' 
 import { NewsArticle } from "../types/newsTypes";
 
 interface NewsState {
