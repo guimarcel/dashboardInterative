@@ -25,9 +25,9 @@ export default function RootLayout({
 }) {
   return (
     <html className={`${outfit.variable}`} lang="pt-BR">
-      <link rel="icon" href="/OficinaBrasil-icon.png" />
-
       <body>
+        <link rel="icon" href="/OficinaBrasil-icon.png" />
+
         <ReduxProvider>{children}</ReduxProvider>
       </body>
     </html>
